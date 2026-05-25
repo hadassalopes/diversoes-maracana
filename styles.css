@@ -191,13 +191,18 @@ img {
 }
 
 .nav {
-  position: fixed;
-  inset: var(--header-h) 0 0 0;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
   padding: 1.5rem;
   background: var(--bg);
   transform: translateX(100%);
   transition: transform var(--ease);
   overflow-y: auto;
+  max-height: calc(100vh - var(--header-h));
+  z-index: 101;
+  box-shadow: var(--shadow);
 }
 
 .nav.is-open {
@@ -553,6 +558,8 @@ img {
     transform: none;
     overflow: visible;
     background: transparent;
+    box-shadow: none;
+    z-index: auto;
   }
 
   .nav__list {
