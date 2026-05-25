@@ -366,19 +366,19 @@ img {
 }
 
 .atracao-card__img--1 {
-  background: linear-gradient(135deg, var(--coral) 0%, var(--gold) 100%);
+  background-image: url("assets/carrossel.jpg"), linear-gradient(135deg, var(--coral) 0%, var(--gold) 100%);
 }
 
 .atracao-card__img--2 {
-  background: linear-gradient(135deg, var(--aqua) 0%, var(--navy) 100%);
+  background-image: url("assets/charretes.jpg"), linear-gradient(135deg, var(--aqua) 0%, var(--navy) 100%);
 }
 
 .atracao-card__img--3 {
-  background: linear-gradient(135deg, var(--orange) 0%, var(--coral) 100%);
+  background-image: url("assets/jumbinho.jpg"), linear-gradient(135deg, var(--orange) 0%, var(--coral) 100%);
 }
 
 .atracao-card__img--4 {
-  background: linear-gradient(135deg, var(--gold) 0%, var(--orange) 100%);
+  background-image: url("assets/bugrinho.jpg"), linear-gradient(135deg, var(--gold) 0%, var(--orange) 100%);
 }
 
 .atracao-card__img--5 {
